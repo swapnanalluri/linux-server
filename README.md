@@ -227,7 +227,7 @@ sudo apt-get upgrade
    
    #### Setting up your Google Oauth2
    
-   - Go to [Google Cloud Plateform](https://console.cloud.google.com/).
+   - Go to [Google Cloud Platform](https://console.cloud.google.com/).
   
    - Click `APIs & services` on left menu.
    
