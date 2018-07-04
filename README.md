@@ -292,7 +292,7 @@ sudo apt-get upgrade
    now copy the contents of id_rsa.pub file (microsoft office file) and paste it in the grader. 
    
    ## Test.pem file
-      -----BEGIN RSA PRIVATE KEY-----
+ -----BEGIN RSA PRIVATE KEY-----
 ```
 MIIEpAIBAAKCAQEAt+mtvz9ZghPkwYtGzYkf+YmxulNfFfxg3fQZY7WcQO8BjNN3
 VvsbAWVE7+QmpZmaRjvnCoBSG0EIK1AgdK6H1yXXcex0xZxeuKyhUuypQkfaIKgv
@@ -391,8 +391,9 @@ m/8Dd75wlgVRqvYhti/ncgiNjIQ83kt3KL0HA+Vvc2R64FHnbhUSCw==
 
    
    ## id_rsa.pub file
-   
+  ``` 
   ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDgWc5pvnp+zTVKuQoKbOisTPAf/EaLtLLZ0bZBbD5Qs5XXHbbIDW1/EQjEB18Ff8PkJ4l4miFBukcebl+QANq7dd27sz9/nhygxrNHFlRnu24ZMYuenfC8m6sM/S2498D159HU6et9E9d4dGMKlQ/UjMDonBJBJ04xU1sizXnbx2Q8+p3HcAuBBUmsZ0QPxJYWRSqQIn7bjflYxbOCRK+9Q0m+/qhEnS0aB1joPuiD3PTxBrRHtiDk+83Bbbr3XBQm91B6p6oWu01Uh1G7JZnPK9QEkAY1J0PO8V/a/v3XZSE9/bSqDlIGyUVF+uBAfIqla4aIxrWB58zICfpsL9sd User@DESKTOP-BJ4EUMQ
+  ```
 
 
 
