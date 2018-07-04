@@ -114,7 +114,7 @@ sudo apt-get upgrade
   ```
   Install newer vesions of packages you have:
   ```
-  sudo sudo apt-get upgrade
+  sudo apt-get upgrade
   ```
   #### Include cron scripts to automatically manage package updates
 
