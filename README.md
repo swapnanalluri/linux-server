@@ -105,6 +105,27 @@ sudo apt-get upgrade
   sudo ufw status
   ```
   It will display all allowed ports
+
+  #### Update and upgrade all currently installed packages
+
+  Update the list of available packages and their versions:
+  ```
+  sudo apt-get update
+  ```
+  Install newer vesions of packages you have:
+  ```
+  sudo sudo apt-get upgrade
+  ```
+  #### Include cron scripts to automatically manage package updates
+
+  Install the unattended-upgrades package:
+  ```
+  sudo apt-get install unattended-upgrades
+  ```
+  Enable the unattended-upgrades package:
+  ```
+  sudo dpkg-reconfigure -plow unattended-upgrades
+  ```
   
   #### Installing Apache2 
   In terminal 
@@ -177,21 +198,21 @@ sudo apt-get upgrade
    In this add the following code
    ```
    <VirtualHost *:80>
-		ServerName 13.232.81.26
-		ServerAdmin admin@mywebsite.com
-		WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
-		<Directory /var/www/FlaskApp/FlaskApp/>
-			Order allow,deny
-			Allow from all
-		</Directory>
-		Alias /static /var/www/FlaskApp/FlaskApp/static
-		<Directory /var/www/FlaskApp/FlaskApp/static/>
-			Order allow,deny
-			Allow from all
-		</Directory>
-		ErrorLog ${APACHE_LOG_DIR}/error.log
-		LogLevel warn
-		CustomLog ${APACHE_LOG_DIR}/access.log combined
+    ServerName 13.232.81.26
+    ServerAdmin admin@mywebsite.com
+    WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
+    <Directory /var/www/FlaskApp/FlaskApp/>
+      Order allow,deny
+      Allow from all
+    </Directory>
+    Alias /static /var/www/FlaskApp/FlaskApp/static
+    <Directory /var/www/FlaskApp/FlaskApp/static/>
+      Order allow,deny
+      Allow from all
+    </Directory>
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    LogLevel warn
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
    ```
    Enable the virtual host 
